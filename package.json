@@ -1,14 +1,15 @@
 {
   "name": "text-open",
   "version": "0.1.0",
-  "description": "text open，一个可以在过长文本后面显示...展开的组件",
+  "description": "long text，一个可以在过长文本后面显示...展开的组件",
   "main": "./lib/index.js",
   "keywords": [
     "react",
     "react-component",
-    "text",
+    "long text",
     "展开",
-    "收起"
+    "收起",
+    "长文本"
   ],
   "author": "<1712776213@qq.com>",
   "repository": {
@@ -30,7 +31,7 @@
     "dist/"
   ],
   "dependencies": {
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.7.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2"
@@ -55,6 +56,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "rc-tools": "^9.2.0"
+    "rc-tools": "^9.3.11"
   }
 }
