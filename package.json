@@ -1,6 +1,6 @@
 {
   "name": "text-open",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "long text，一个可以在过长文本后面显示...展开的组件",
   "main": "./lib/index.js",
   "keywords": [
@@ -11,9 +11,11 @@
     "收起",
     "长文本"
   ],
-  "author": "<1712776213@qq.com>",
+  "author": "jackfei",
+  "license": "ISC",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/JackFei/React-Open-Text.git"
   },
   "config": {
     "port": 8001
@@ -43,8 +45,7 @@
     "eject": "react-scripts eject",
     "gh-pages": "rc-tools run gh-pages",
     "pub": "rc-tools run update-self && rc-tools run pub",
-    "lint": "rc-tools run lint",
-    "prepublish": "rc-tools run guard"
+    "lint": "rc-tools run lint"
   },
   "eslintConfig": {
     "extends": "react-app"
