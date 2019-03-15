@@ -1,0 +1,60 @@
+{
+  "name": "text-open",
+  "version": "0.1.0",
+  "description": "text open，一个可以在过长文本后面显示...展开的组件",
+  "main": "./lib/index.js",
+  "keywords": [
+    "react",
+    "react-component",
+    "text",
+    "展开",
+    "收起"
+  ],
+  "author": "<1712776213@qq.com>",
+  "repository": {
+    "type": "git"
+  },
+  "config": {
+    "port": 8001
+  },
+  "entry": {
+    "text-open": [
+      "./assets/index.less",
+      "./src/index.js"
+    ]
+  },
+  "style": "./assets/index.css",
+  "files": [
+    "lib/",
+    "assets/*.css",
+    "dist/"
+  ],
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.2"
+  },
+  "scripts": {
+    "start": "rc-tools run server",
+    "build": "rc-tools run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "gh-pages": "rc-tools run gh-pages",
+    "pub": "rc-tools run update-self && rc-tools run pub",
+    "lint": "rc-tools run lint",
+    "prepublish": "rc-tools run guard"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "rc-tools": "^9.2.0"
+  }
+}
