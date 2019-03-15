@@ -15,7 +15,7 @@ ReactDOM.render(
       <TextOpen showText="Meghan Markle's beautiful baby shower that Serena Williams hosted for her in New York City will not be her only. At the time of the shower, reports came out that Meghan would have a smaller celebration back in the United Kingdom.There is still going to be some sort of private baby-centric event for Meghan’s UK people, and Kate will host,” a royal insider told the outlet. "
         openText="open"
         collapseText="close"
-        lineMax={35}/>
+        lineMax={60}/>
     </div>
   </div>,
   document.getElementById('__react-content'),

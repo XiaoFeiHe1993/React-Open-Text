@@ -16,14 +16,13 @@ export default class TextOpen extends Component {
     }
   }
 
-  measureText(text) {
+  measureText() {
     let {showTexts} = this.state;
     let {lineMax, lineNum} = this.props;
     if (lineMax > 0 && showTexts.length > lineMax * lineNum) { // 如果文字特别长计算量比较大
       showTexts = showTexts.slice(0, lineMax * lineNum - 1);
     }
     if (showTexts && showTexts.length>0 && this.refs.main && this.refs.main.offsetHeight < this.refs.main.scrollHeight) {
-      console.log(showTexts);
       this.setState({showTexts: showTexts.slice(0, showTexts.length-2)}, () => {
         setTimeout(() => {
           this.measureText();
