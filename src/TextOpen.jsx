@@ -41,14 +41,18 @@ export default class TextOpen extends Component {
 
   render() {
     const {showTexts, openState} = this.state;
-    const {openText, collapseText, operationColor} = this.props;
-    return (<div className={openState ? "open-main" : "open-main1"} ref="main">
+    const {openText, collapseText, operationStyle, contentStyle} = this.props;
+    return (<div ref="main" 
+              className={openState ? "open-main" : "open-main1"} 
+              style={contentStyle}>
       {showTexts}
       <div className="open-operation">
         {openState && '...'}
         <div onClick={this.handleOpenText}
             className="open-btn"
-            style={{color: operationColor}}>{openState ? openText : collapseText}</div>
+            style={operationStyle}>
+          {openState ? openText : collapseText}
+        </div>
       </div>
     </div>)
   }
@@ -60,7 +64,8 @@ TextOpen.propTypes = {
   collapseText: PropTypes.string,
   lineMax: PropTypes.number,
   lineNum: PropTypes.number,
-  operationColor: PropTypes.string
+  contentStyle: PropTypes.object,
+  operationStyle: PropTypes.object
 }
 
 TextOpen.defaultProps = {
@@ -69,5 +74,6 @@ TextOpen.defaultProps = {
   collapseText: '收起',
   lineMax: 0,
   lineNum: 2,
-  operationColor: '#7c5dc7'
+  contentStyle: {},
+  operationStyle: {}
 }
