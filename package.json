@@ -1,8 +1,8 @@
 {
   "name": "text-open",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "long text，一个可以在过长文本后面显示...展开的组件",
-  "main": "./lib/index.js",
+  "main": "./index.js",
   "keywords": [
     "react",
     "react-component",
