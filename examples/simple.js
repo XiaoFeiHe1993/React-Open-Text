@@ -11,14 +11,16 @@ ReactDOM.render(
         collapseText="收起"
         lineMax={35}
         contentStyle={{color: "#000", fontSize: 20}}
-        operationStyle={{color: "#7c5dc7"}}/>
+        operationStyle={{color: "#7c5dc7"}}
+        openStatus={true}/>
     </div>
     <div style={{ margin: '20px 20px 20px' }}>
       <TextOpen showText="Meghan Markle's beautiful baby shower that Serena Williams hosted for her in New York City will not be her only. At the time of the shower, reports came out that Meghan would have a smaller celebration back in the United Kingdom.There is still going to be some sort of private baby-centric event for Meghan’s UK people, and Kate will host,” a royal insider told the outlet. "
         openText="open"
         collapseText="close"
         lineMax={60}
-        operationStyle={{color: "#7c5dc7"}}/>
+        operationStyle={{color: "#7c5dc7"}}
+        openStatus={false}/>
     </div>
   </div>,
   document.getElementById('__react-content'),

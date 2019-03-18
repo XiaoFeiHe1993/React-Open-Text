@@ -1,6 +1,6 @@
 {
   "name": "text-open",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "long text，一个可以在过长文本后面显示...展开的组件",
   "main": "index.js",
   "keywords": [
