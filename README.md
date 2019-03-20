@@ -1,4 +1,4 @@
-### This is a component that can show long text, and show 'open' or 'close' text. But I recommend you can get the source, rather than npm install it.
+### This is a component that can show long text, and show 'open' or 'close' text. But I recommend you can get the source, rather than npm install it. If it can help you, you can star it
 
 #### This results
 ![](./assets/image/微信截图_20190315222811.png)
