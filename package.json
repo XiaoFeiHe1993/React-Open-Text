@@ -48,6 +48,9 @@
     "not ie <= 11",
     "not op_mini all"
   ],
+  "devEngines": {
+    "node": "10.x || 11.x || 12.x"
+  },
   "devDependencies": {
     "rc-tools": "^9.5.3",
     "react": "^16.11.0",
